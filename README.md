@@ -1,4 +1,4 @@
-# Thinkpad X201T Project - {W.I.P}
+# Thinkpad-X1-Yoga-Gen4 Project - {W.I.P}
 # LucidLinux - I3 - Zen kernel - ACPI/TLP - FanControl - TabletMode/AutoSwivel - Fingerprint - Wacom/Pen - Simcard ....
 # Arcolinux Based - `https://arcolinux.com/`
 
