@@ -1,5 +1,5 @@
 # Thinkpad-X1-Yoga-Gen4 Project - {W.I.P}
-# LucidLinux - I3 - Zen kernel - IR Cam - Dolby Atmos system - ACPI/TLP - FanControl - TabletMode/AutoSwivel Dolby Vision - HiDPi - HDR - Fingerprint - Wacom/Pen - WWAN for Simcard ....
+# LucidLinux - I3 - Zen kernel - IR Cam - Dolby Atmos system - ACPI/TLP - FanControl - TabletMode/AutoSwivel Dolby Vision - HiDPi - HDR - Fingerprint - Wacom/Pen - WWAN - Wifi/bluetooth - NFC ....
 # Arcolinux Based - `https://arcolinux.com/`
 
 ## Welcome to LucidLinux auto configuration and setup script for ArcoLinux.
