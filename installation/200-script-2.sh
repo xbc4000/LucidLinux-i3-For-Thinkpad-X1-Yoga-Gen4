@@ -44,8 +44,8 @@ yay -S --noconfirm --needed arj acpi aarchup aconfmgr-git alpm_octopi_utils anyd
             yay -S --noconfirm --needed gotop github-desktop-bin google-earth-pro galculator guake
               yay -S --noconfirm --needed hexchat hddtemp howdy
                 yay -S --noconfirm --needed inxi input-wacom-dkms iio-sensor-proxy-git
-                  yay -S --noconfirm --needed lm_sensors libfprint lsb-release libreoffice-still lib32-libevdev libwacom
-                    yay -S --noconfirm --needed materia-gtk-theme microsoft-edge-dev
+                  yay -S --noconfirm --needed lm_sensors libfprint lsb-release libreoffice-still lib32-libevdev libwacom lutris
+                    yay -S --noconfirm --needed materia-gtk-theme microsoft-edge-dev minecraft-launcher mcpelauncher-hx-script
                     yay -S --noconfirm --needed netflix-qdesktop notify-osd npm
                   yay -S --noconfirm --needed obs-studio obs-v4l2sink onboard pod2man octopi octopi-notifier-qt5
                 yay -S --noconfirm --needed pacaur pikaur paprefs pepper-flash perl-anyevent-i3 polybar privoxy python-croniter

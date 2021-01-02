@@ -1,16 +1,15 @@
 #!/bin/python
-# -*- coding: utf-8 -*-
+
+# -*- coding: utf-8 -
 
 # Procedure
-# Surf to https://openweathermap.org/city
-# Fill in your CITY
-# e.g. Antwerp Belgium
-# Check url
-# https://openweathermap.org/city/2803138
-# you will the city code at the end
-# create an account on this website
-# create an api key (free)
-# LANG included thanks to krive001 on discord
+# Go to https://openweathermap.org/city
+# Create an account on this website
+# Create an api key (free)
+# Enter your api key
+# Enter your city
+# Check the url 
+# there will be a city code at the end
 
 
 import requests
@@ -18,8 +17,8 @@ import requests
 CITY = "5920470"
 API_KEY = "756edce7e9d4c385ef9499a53492678c"
 UNITS = "Metric"
-UNIT_KEY = "C"
-#UNIT_KEY = "F"
+#UNIT_KEY = "C"
+UNIT_KEY = "F"
 LANG = "en"
 #LANG = "nl"
 #LANG = "hu"
