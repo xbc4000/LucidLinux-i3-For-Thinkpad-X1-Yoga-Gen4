@@ -35,27 +35,27 @@ yay -S --noconfirm --needed ttf-hack
   echo "Font packages installed"
 
 #yay packages install
-yay -S --noconfirm --needed arj acpi aarchup aconfmgr-git alpm_octopi_utils
+yay -S --noconfirm --needed arj acpi aarchup aconfmgr-git alpm_octopi_utils anydesk-bin
   yay -S --noconfirm --needed barrier barrier-headless betterdiscordctl-git bleachbit
-    yay -S --noconfirm --needed clipit catfish code chromium chromium-widevine
-      yay -S --noconfirm --needed discord
+    yay -S --noconfirm --needed clipit catfish code chromium chromium-widevine clamav clamtk chatty
+      yay -S --noconfirm --needed discord docker
         yay -S --noconfirm --needed evolution etcher-bin
           yay -S --noconfirm --needed fprintd fingerprint-gui fancontrol-gui fwupd
             yay -S --noconfirm --needed gotop github-desktop-bin google-earth-pro galculator guake
-              yay -S --noconfirm --needed hexchat hddtemp
+              yay -S --noconfirm --needed hexchat hddtemp howdy
                 yay -S --noconfirm --needed inxi input-wacom-dkms iio-sensor-proxy-git
                   yay -S --noconfirm --needed lm_sensors libfprint lsb-release libreoffice-still lib32-libevdev libwacom
                     yay -S --noconfirm --needed materia-gtk-theme microsoft-edge-dev
                     yay -S --noconfirm --needed netflix-qdesktop notify-osd npm
-                  yay -S --noconfirm --needed onboard pod2man octopi octopi-notifier-qt5
-                yay -S --noconfirm --needed pacaur pikaur paprefs pepper-flash perl-anyevent-i3 polybar privoxy
+                  yay -S --noconfirm --needed obs-studio obs-v4l2sink onboard pod2man octopi octopi-notifier-qt5
+                yay -S --noconfirm --needed pacaur pikaur paprefs pepper-flash perl-anyevent-i3 polybar privoxy python-croniter
               yay -S --noconfirm --needed qbittorrent
-            yay -S --noconfirm --needed radiotray redshift
-          yay -S --noconfirm --needed sharutils sl safeeyes spotify spotifywm-git sof-firmware screenrotator-git
-        yay -S --noconfirm --needed telegram-desktop tp_smapi thinkfan tlp tlpui-git tomboy-ng-bin tor-browser tk tor tint2
+            yay -S --noconfirm --needed radiotray redshift rkhunter
+          yay -S --noconfirm --needed sharutils sl safeeyes skdet spotify spotifywm-git sof-firmware screenrotator-git steam steam-native-runtime steam-tweaks
+        yay -S --noconfirm --needed telegram-desktop tp_smapi thinkfan tlp tlpui-git tomboy-ng-bin tor-browser tk tor tint2 twitch
       yay -S --noconfirm --needed unclutter uudeview
-    yay -S --noconfirm --needed vpn-unlimited vnstat
-  yay -S --noconfirm --needed xf86-input-wacom
+    yay -S --noconfirm --needed vpn-unlimited vnstat v4l2loopback-dkms
+  yay -S --noconfirm --needed xf86-input-wacom xprintidle
 yay -S --noconfirm --needed youtube-desktop
 
   echo "Yay packages installed"
