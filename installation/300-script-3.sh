@@ -10,6 +10,7 @@ set -e
 
 sudo cp -r settings/etc/modules-load.d/* /etc/modules-load.d/
   cp -r i3/* ~/.config/i3/
+  cp -r settings/rc/* ~/
 cp -r settings/polybar/* ~/.config/polybar/
 
   echo "Custom settings installed"

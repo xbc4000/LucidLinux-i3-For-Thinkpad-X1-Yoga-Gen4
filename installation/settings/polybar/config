@@ -392,6 +392,43 @@ ramp-foreground = ${colors.prefix-foreground}
 
 ################################################################################
 
+[module/temperature2]
+type = internal/temperature
+; Thermal zone to use
+; To list all the zone types, run
+; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+; Default: 0
+thermal-zone = 1
+
+; Full path of temperature sysfs path
+; Use `sensors` to find preferred temperature source, then run
+; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
+; to find path to desired file
+; Default reverts to thermal zone setting
+hwmon-path = /sys/devices/pci0000:00/0000:00:1d.0/0000:03:00.0/hwmon/hwmon2/temp1_input
+
+warn-temperature = 70
+format = <ramp> <label>
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+format-underline = ${colors.underline}
+format-warn = <ramp> <label-warn>
+format-warn-underline = #ff0000
+label = %temperature%
+label-warn =  %temperature%
+label-warn-foreground = #ff0000
+ramp-0 = ▁
+ramp-1 = ▂
+ramp-2 = ▃
+ramp-3 = ▄
+ramp-4 = ▅
+ramp-5 = ▆
+ramp-6 = ▇
+ramp-7 = █
+ramp-foreground = ${colors.prefix-foreground}
+
+################################################################################
+
 [module/temperature3]
 type = internal/temperature
 ; Thermal zone to use
