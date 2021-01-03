@@ -55,7 +55,7 @@ override-redirect = false
 bottom = false
 fixed-center = true
 width = 100%
-height = 20
+height = 40
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -70,8 +70,8 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Hack:size=7.5;0"
-font-1 = "FontAwesome:size=7.5;0"
+font-0 = "Hack:size=15;0"
+font-1 = "FontAwesome:size=15;0"
 
 modules-left =appfinder i3 filesystem
 modules-center =temperature1 temperature2 temperature3 temperature4 temperature5 cpu1 memory1 battery load-average
@@ -107,7 +107,7 @@ override-redirect = false
 bottom = true
 fixed-center = true
 width = 100%
-height = 20
+height = 40
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -122,8 +122,8 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Hack:size=7.5;0"
-font-1 = "FontAwesome:size=7.5;0"
+font-0 = "Hack:size=15;0"
+font-1 = "FontAwesome:size=15;0"
 
 modules-left =volume previous playpause next spotify
 modules-center =clock-calendar weather
@@ -331,7 +331,7 @@ thermal-zone = 0
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input
 
 warn-temperature = 70
 format = <ramp> <label>
@@ -361,14 +361,14 @@ type = internal/temperature
 ; To list all the zone types, run
 ; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
 ; Default: 0
-thermal-zone = 0
+thermal-zone = 1
 
 ; Full path of temperature sysfs path
 ; Use `sensors` to find preferred temperature source, then run
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/pci0000:00/0000:00:1d.0/0000:05:00.0/hwmon/hwmon1/temp1_input
+hwmon-path = /sys/devices/pci0000:00/0000:00:1d.0/0000:03:00.0/hwmon/hwmon2/temp1_input
 
 warn-temperature = 70
 format = <ramp> <label>
@@ -398,14 +398,14 @@ type = internal/temperature
 ; To list all the zone types, run
 ; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
 ; Default: 0
-thermal-zone = 1
+thermal-zone = 4
 
 ; Full path of temperature sysfs path
 ; Use `sensors` to find preferred temperature source, then run
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/virtual/thermal/thermal_zone1/hwmon4/temp1_input
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone4/hwmon5/temp1_input
 
 warn-temperature = 70
 format = <ramp> <label>
@@ -435,14 +435,14 @@ type = internal/temperature
 ; To list all the zone types, run
 ; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
 ; Default: 0
-thermal-zone = 2
+thermal-zone = 6
 
 ; Full path of temperature sysfs path
 ; Use `sensors` to find preferred temperature source, then run
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon5/temp1_input
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone6/hwmon8/temp1_input
 
 warn-temperature = 70
 format = <ramp> <label>
@@ -472,14 +472,14 @@ type = internal/temperature
 ; To list all the zone types, run
 ; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
 ; Default: 0
-thermal-zone = 3
+thermal-zone = 7
 
 ; Full path of temperature sysfs path
 ; Use `sensors` to find preferred temperature source, then run
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
-hwmon-path = /sys/devices/virtual/thermal/thermal_zone3/hwmon7/temp1_input
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon9/temp1_input
 
 warn-temperature = 70
 format = <ramp> <label>

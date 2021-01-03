@@ -60,11 +60,6 @@ yay -S --noconfirm --needed youtube-desktop
 
   echo "Yay packages installed"
 
-#Wacom
-xsetwacom --set "Wacom Pen and multimedia sensor Pen eraser" Button 1 2
-
-  echo "Wacom stylus enabled"
-
 #Fingerprint
 fwupdmgr enable-remote lvfs-testing
 fwupdmgr refresh

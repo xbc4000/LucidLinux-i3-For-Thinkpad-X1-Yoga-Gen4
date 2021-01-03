@@ -9,7 +9,6 @@
 set -e
 
 sudo cp -r settings/etc/modules-load.d/* /etc/modules-load.d/
-  sudo chown -R $xbc4000:xbc4000 /games
   cp -r i3/* ~/.config/i3/
 cp -r settings/polybar/* ~/.config/polybar/
 
